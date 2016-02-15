@@ -26,12 +26,6 @@ public class Application {
 			repository.save(new Customer("Kim", "Bauer"));
 			repository.save(new Customer("David", "Palmer"));
 			repository.save(new Customer("Michelle", "Dessler"));
-			
-			repository.save(new Customer("Sidath", "Dassanayake"));
-			repository.save(new Customer("Ruwini", "Cooray"));
-			repository.save(new Customer("Dahamsa", "Dassanayake"));
-			repository.save(new Customer("kemindu", "Sihas"));
-			repository.save(new Customer("Rukshana", "Shakoor"));
 
 			// fetch all customers
 			log.info("Customers found with findAll():");
